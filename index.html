@@ -122,6 +122,16 @@
 </style>
 </head>
 <body>
+  <!-- Particle canvas behind everything -->
+<canvas id="bg" style="position:fixed; inset:0; z-index:0;"></canvas>
+
+<!-- 🎵 Background audio element -->
+<audio id="bgMusic" src="PTT-20250917-WA0103.opus" loop></audio>
+
+<div class="wrap" role="main" style="position:relative; z-index:2;">
+  <!-- header, hero, cake, panels etc. all unchanged -->
+  <!-- ... your same HTML structure here ... -->
+</div>
 <!-- Particle canvas behind everything -->
 <canvas id="bg" style="position:fixed; inset:0; z-index:0;"></canvas>
 
